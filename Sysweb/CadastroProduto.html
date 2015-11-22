@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Cliente</title>
+      <link rel="stylesheet" type="text/css" href="../css/estilo1.css">
+      <link rel="stylesheet" type="text/css" href="../css/estilo2.css">
+      <script language="javascript" src="java/formulario.js"> </script>
+              
+</head>
+	  
+ <body>
+<form action="Cadastroproduto.php" method="post" name="dados" onSubmit="return enviardados();">
+<table>
+<tr> <td colspan="3"> Formulario de Cadastro de produtos </td> </tr>
+
+<tr><td>
+<tr><td>NomeProduto:</tr></td>
+<tr><td><input  name="txtNomeProduto"   type="text" class="formbutton" id="tx_nome" size="52" maxlength="150"></td></tr>
+<tr><td>fornecedor:</tr></td>
+<tr><td><input name="txtfornecedor" type="text" id="tx_email" size="52" maxlength="150" class="formbutton"></td></tr>
+<tr><td>preco:
+<tr><td><input name="txtpreco" type="txt" class="formbutton" id="tx_nome" size="52" maxlength="150"></td></tr>
+
+<tr><td><input name="Submit" type="submit" value="cadastrar"/><input name="Reset" type="reset"  value="Redefinir">
+</tr></td>
+</table>
+</form>
+
+
+</body>
+
+</html>
