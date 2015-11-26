@@ -10,7 +10,7 @@
 </head>
 	  
  <body class="body1">
-   <form action="CadMensagem.php" method="post" name="dados" onSubmit="return enviardados();">
+   <form action="../Sysweb/CadMensagem.php" method="post" name="dados" onSubmit="return enviardados();">
    <table>
    <tr>
 	<td>Nome Completo:</td>
@@ -18,9 +18,9 @@
 		<input type="text" name="txt_nome" class="formbutton" id="tx_nome" size="52" maxlength="150"></input>
 	</td>
 	<tr>
-		<td>E-mail:</td>
+		<td>Email:</td>
 		<td>
-			<input type="text" id="tx_email" size="52" maxlength="150" class="formbutton"></input>
+			<input type="text" name="txt_email" id="tx_email" size="52" maxlength="150" class="formbutton"></input>
 		</td>
 	</tr>
    </tr>

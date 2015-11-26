@@ -15,6 +15,8 @@ function deletaMensagem(){
 <br><br>
 <table width="80%" border="2px">
 <tr>
+<td>Nome:</td>
+<td>Email:</td>
 <td>Tipo</td>
 <td>Mensagem</td>
 <td>Acao</td>
@@ -37,7 +39,7 @@ try{
 	 if ($stmt){
 		foreach ($stmt as $usr){
 			echo"<tr>";
-			echo"<td>".$usr["tipo"]." </td> <td> ".$usr["mensagem"]." </td>" ;
+			echo "<td>".$usr["tipo"]." </td> <td> ".$usr["mensagem"]. "</td>" ;
 			echo"<td>";
 			echo"<a href='FormEditaMensagem.php?id_mensagem=".$usr["id_mensagem"]."'>Alterar</a>";
 			echo"<a href='formDeletaMensagem.php?id_mensagem=".$usr["id_mensagem"]."'onclick=' return 

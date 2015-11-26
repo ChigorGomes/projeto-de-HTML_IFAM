@@ -4,9 +4,11 @@ include("conexaoBd.php");
 try{
 	$tipo= $_POST   ["txttipo"];
 	$mensagem= $_POST  ["txtmensagem"];
+	$email= $_POST['txt_nome'];
+	$nome=$_POST['txt_email'];
     
 	
-	$sql="INSERT INTO MENSAGEM VALUES(0,'$tipo','$mensagem')"; 
+	$sql="INSERT INTO MENSAGEM VALUES(0,'$tipo','$mensagem','$nome','$email')"; 
 	$inseriu= $conn-> query($sql);
 	
 	if($inseriu){

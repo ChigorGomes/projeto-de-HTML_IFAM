@@ -42,7 +42,6 @@
     <li><a href="#">meninas</a>
     <ul class="sub-menu">
 	    <li><a href="meninas.php" target="ligar">Meninas</a></li>
-        <li><a href="#">algo</a></li>
         
       </ul>
 	  </li>
@@ -54,17 +53,8 @@
         <li><a href="eletronicos.php" target="ligar">Eletrônicos</a></li>
       </ul>
 	  </li>
-	
-	<li><a href="#">personagens</a>
-    <ul class="sub-menu">
-	    <li><a href="#">Item</a></li>
-        <li><a href="#">Item</a></li>
-        <li><a href="#">Item</a></li>
-        <li><a href="#">Item</a></li>
-      </ul>
-	  </li>
    
-  <li><a href="contatos.php"  target="ligar" >Contato</a>
+  <li><a href="mensagem.php"  target="ligar" >Contato</a>
    
 	  </li>
  
